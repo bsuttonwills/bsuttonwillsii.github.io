@@ -1,6 +1,23 @@
 <!DOCTYPE html><html><head><title> Tsunimby </title><!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head>
 
 <body>
+
+<style>
+  input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 20%;
+}
+</style> <!--css for search bar-->
+
+<input type="text" name="search" placeholder="Search.." style="float: right;">
+
+
   <style>
   .carousel{
     height:500px;
@@ -63,6 +80,15 @@
            </a>
        </div>
   </div>
+
+  <!-- Image and text -->
+  <div>
+    <nav class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bootstrap
+  </a>
+</nav>
 
 
 
