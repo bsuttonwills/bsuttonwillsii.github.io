@@ -1,4 +1,5 @@
 /*AUTHORS CUSTOM STYLES*/
 .jumbotron{
-  background: url(../images/elephant.jpg);
+  background: url(https://static.pexels.com/photos/5403/city-santa-monica.jpg) no-repeat;
+  background-size: inherit;
 }
