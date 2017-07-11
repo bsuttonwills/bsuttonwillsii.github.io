@@ -1,4 +1,5 @@
 
+/* Change fonts to Azo Sans Thin */
 
 /*AUTHORS CUSTOM STYLES*/
 /*jumbotron background image*/
@@ -18,7 +19,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-#signup {
+#signupbtn {
     background-color: #58c9b9;
     color: white;
     padding: 14px 20px;
