@@ -1,11 +1,18 @@
-
-/* Change fonts to Azo Sans Thin */
+.background{
+  color: #3aafb9
+}
 
 /*AUTHORS CUSTOM STYLES*/
 /*jumbotron background image*/
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
 .jumbotron{
-  background: url(https://static.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg) no-repeat;
-  background-size: inherit;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/d/db/13feb17_nokxl_dc.jpg) no-repeat;
+  background-size: cover;
 }
 
 /* Full-width input fields */
@@ -106,9 +113,16 @@ input[type=text], input[type=password] {
  */
 /* get active css */
 body {
+  background-color: #3aafb9;
+  /* Text color */
+  color: #fadad8;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 footer {
     margin: 50px 0;
+}
+
+.navbar-brand{
+  padding-left: 25px;
 }
