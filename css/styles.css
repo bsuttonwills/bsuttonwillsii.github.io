@@ -3,16 +3,24 @@
 }
 
 /*AUTHORS CUSTOM STYLES*/
-/*jumbotron background image*/
+
 
 body{
   font-family: 'Titillium Web', sans-serif;
 }
 
-
+/*jumbotron background image*/
 .jumbotron{
   background: url(https://upload.wikimedia.org/wikipedia/commons/d/db/13feb17_nokxl_dc.jpg) no-repeat;
   background-size: cover;
+  color: #519d9e;
+
+}
+
+#jumboback{
+    background-color: #FFF;
+    /* Translucent
+    opacity: 0.6; */
 }
 
 /* Full-width input fields */
@@ -27,7 +35,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 #signupbtn {
-    background-color: #58c9b9;
+    background-color: #fadad8;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -39,7 +47,12 @@ input[type=text], input[type=password] {
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: ;
+}
+
+.signupbtn {
+  padding: 14px 20px;
+  background-color: ;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -115,7 +128,7 @@ input[type=text], input[type=password] {
 body {
   background-color: #3aafb9;
   /* Text color */
-  color: #fadad8;
+  color: #FFF;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
@@ -125,4 +138,8 @@ footer {
 
 .navbar-brand{
   padding-left: 25px;
+}
+
+#navbar{
+  background-color: #03256c
 }
